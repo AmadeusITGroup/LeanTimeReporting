@@ -48,6 +48,18 @@ In the description below, the lean time reporting runs on 3 different applicatio
   To simplify the explanations below, the SAP WBS lowest level will be a feature taking assumption that the link is made at this level between Jira Epic (SAFe Feature) and the WBS. It refers below to a WBS_Feature.
 
   ![ ](/assets/figure1.png)
+1.	A first data integration is required to ensure that the activities, Jira epics in this example, are linked to the financial project management system WBS. It is the responsibility of the Release Train Engineer to ensure it is done. 
+-	Option 1:  Jira stores the information of the WBS in its tickets
+-	Option 2: SAP WBS stores the information of the ticket. 
+Both options have been used. The decision has been made to be at Jira Epic level (SAFe Feature) to not over complexify the WBS. Still, it remains feasible and has been experienced to be at user story level.
+2.	A second data integration is required to ensure that the team, the team members, their roles (if required), and their team dedication (one person might not work 100% for one team and may be part of several teams, working thus on different backlog of activities) are shared between the time tracking tool and the application lifecycle tool (Jira).
+This allows the automation of the completion of the timecards (lean timesheet filling) if required
+3.	A third data integration is used to import in the financial project management system (SAP) the user story points per Feature. Note as both the time tracking tool and the financial project management system are in SAP, the transfer of the capacity of each team to the project financial system is done using standard SAP transaction.
+A dashboard can be used for the Release Train Engineer (RTE) to monitor the user story points per WBS_Feature, and simulate the reallocation of the time spent (effort days) to the WBS if needed.
+This dashboard can be used to request the RTE to validate the simulation before the finance system performs the reallocation. It can be auditable evidence (capitalization processes) that the hours collected are accurate and representative of what has been created and the effort to create them.
+
+#### Reallocation of the effort days to the WBS in the financial project management system. 
+
   
 
   
