@@ -86,6 +86,17 @@ The effort days for each WBS_feature is then split in the financial project mana
 
 In this example, each team member has a role defined (Scrum Master, Product Owner, Developer, etc…). the notion of CAPEX potential can be overwritten if by company capitalization rules some roles cannot be considered as delivering potentially capitalizable activities as they are considered as being part of the Requirements/design phases.
 
+### How is the capacity per team retrieved in the time tracking tool?
+
+The lean time reporting has been implemented using in the tracking tool 2 types of “tasks”. One type of task is managed through the WBS as in standard processes, the other type is created to mirror the Agile Release Train Structure. In the solution described above the structure reflects the entire list of Agile Release Train and their teams that are grouped by Solution and then Portfolio. There are thus 2 types of tasks in the time tracking tool:
+-	One to track time spent on WBS in a standard way
+-	One to track the time spent working within a team to deliver the story points that the system will retrieve from Jira.
+The time spent working on Agile team is not converted. The reallocation of the time spent per team is reallocated to the WBS in the project financial system. 
+
+### Importance of the maturity of the teams and methodology recommended to prepare the teams to lean time reporting
+
+As explained above all the Lean Time Reporting relies on:
+-	An up-to-date description of the Agile Release Train (Team of Agile Teams) with the complete definition of the all the teams and their team members (with the percentage of dedication to the team and the role for each member). Moreover, the Team must be associated with their respective identifier in the Application Lifecycle Management (ALM) system (JIRA). This is the Release Train Engineer (RTE) responsibility to maintain that. (In our case this description of the Agile teams is in SAP. It is a Virtual Organizations directory)
 
 
 
