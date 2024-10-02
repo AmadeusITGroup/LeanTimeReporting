@@ -58,7 +58,7 @@ This allows the automation of the completion of the timecards (lean timesheet fi
 A dashboard can be used for the Release Train Engineer (RTE) to monitor the user story points per WBS_Feature, and simulate the reallocation of the time spent (effort days) to the WBS if needed.
 This dashboard can be used to request the RTE to validate the simulation before the finance system performs the reallocation. It can be auditable evidence (capitalization processes) that the hours collected are accurate and representative of what has been created and the effort to create them.
 
-#### Reallocation of the effort days to the WBS in the financial project management system. 
+### Reallocation of the effort days to the WBS in the financial project management system. 
 
  ![ ](/assets/figure2.png)  
 
@@ -72,6 +72,20 @@ The data is retrieved every month as requested by the financial policy of the co
 For each WBS_Feature, the effort day are then calculated as follows:
 
 ![ ](/assets/Calc2.png)
+
+### Additional calculation:
+In an Agile Release Train, there are some members playing a transversal role, for example the Release Train Engineer. 
+
+The lean time reporting proposes regrouping them in a transversal team. The time spent by each member of this team is recorded against this team. As this team does not really deliver story points per say, lean time reporting uses the results of the previous method.
+For each WBS_feature, the system sums the number of Effort Days required by all the teams of Agile Release Train. It is then proportionally dispatching the capacity of each team member to the WBS_feature based on this.
+
+### Notion of CAPEX and OPEX
+As per SAFe recommendations, https://v5.scaledagileframework.com/capex-and-opex/, some features are Capex potential and some other tickets (like Maintenance tickets) are not. Jira can send the points aggregated at WBS_feature level in two categories, Capex potential or non-capex.
+
+The effort days for each WBS_feature is then split in the financial project management system into 2 different activity types. Depending on other capitalization rules, the CAPEX time spent might be capitalized at the end.
+
+In this example, each team member has a role defined (Scrum Master, Product Owner, Developer, etc…). the notion of CAPEX potential can be overwritten if by company capitalization rules some roles cannot be considered as delivering potentially capitalizable activities as they are considered as being part of the Requirements/design phases.
+
 
 
 
