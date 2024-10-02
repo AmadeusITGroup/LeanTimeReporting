@@ -96,7 +96,31 @@ The time spent working on Agile team is not converted. The reallocation of the t
 ### Importance of the maturity of the teams and methodology recommended to prepare the teams to lean time reporting
 
 As explained above all the Lean Time Reporting relies on:
--	An up-to-date description of the Agile Release Train (Team of Agile Teams) with the complete definition of the all the teams and their team members (with the percentage of dedication to the team and the role for each member). Moreover, the Team must be associated with their respective identifier in the Application Lifecycle Management (ALM) system (JIRA). This is the Release Train Engineer (RTE) responsibility to maintain that. (In our case this description of the Agile teams is in SAP. It is a Virtual Organizations directory)
+1.	An up-to-date description of the Agile Release Train (Team of Agile Teams) with the complete definition of the all the teams and their team members (with the percentage of dedication to the team and the role for each member). Moreover, the Team must be associated with their respective identifier in the Application Lifecycle Management (ALM) system (JIRA). This is the Release Train Engineer (RTE) responsibility to maintain that. (In our case this description of the Agile teams is in SAP. It is a Virtual Organizations directory)
+![ ](/assets/Diag1.png)
+
+2.	The Agile Teams are working in their Application Lifecycle Management (JIRA) to manage their work. Some settings are required in the ALM system (JIRA) to associate:
+-	The feature or the Story to the WBS_Feature of the financial system
+-	The story to the virtual team working on it
+It is important these teams have a good thruput of their tickets (Stories) and update regularly to reflect when it is done. For that we need to ensure the teams have:
+-	Good estimations practices: each Story must have a weight (estimation in Story points)
+-	Good maturity to be able to complete their Stories all among the iteration and to reflect this on their tickets frequently (Daily recommended). The end of the month is not necessarily matching the end of the iteration, therefore a team which is updating all their tickets at the end of the iteration cannot be implemented in LTR. The closing of the tickets should occur as soon as it is effective.
+![ ](/assets/Diag2.png)
+
+3.	At the end of the month, the timecards of the people are still existing (as for standard workers in Amadeus) to reflect on the time spent by the people. The only difference is that it reflects the time spent on their Agile team. It can be automatically filled in with the Team dedication found in the Virtual Organization Directory. It is also integrating the absences.  Even if automatically filled in, the timecard can be adjusted at the end of the month (in case some activities have been performed externally to the Virtual team: Line organization events, trainings ….).
+![ ](/assets/Diag3.png)
+
+4.	At the end of the month, the RTE oversees the import in the LTR module of:
+-	The story points from the Stories completed by each Virtual Team
+-	The effort days reported in each Virtual Team
+![ ](/assets/Diag4.png)
+
+5.	Then the calculations are performed to obtain the spent for each WBS from financial system
+   ![ ](/assets/FullDiagram.png)
 
 
+ To ensure that the trains satisfy this satisfactory level of maturity, a LTR deployment process has been put in place and all the initiatives are reviewed conjointly by Corporate Finance and Enterprise Agility.
 
+ ![ ](/assets/DeploymentProcess.png)
+
+ 
