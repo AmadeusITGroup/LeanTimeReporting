@@ -47,7 +47,7 @@ In the description below, the lean time reporting runs on 3 different applicatio
 
   To simplify the explanations below, the SAP WBS lowest level will be a feature taking assumption that the link is made at this level between Jira Epic (SAFe Feature) and the WBS. It refers below to a WBS_Feature.
 
-  ![ ](LeanTimeReporting/assets/figure1.png)
+  ![ ](/assets/figure1.png)
   
 
   
