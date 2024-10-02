@@ -67,9 +67,11 @@ The data is retrieved every month as requested by the financial policy of the co
 2.	For each team, a total capacity is defined per month based on the team dedication. Note that a team member can adjust the contribution to the team's capacity. For example, if the team member is dedicated to 2 teams and has worked exceptionally solely for one team, the timecard can be adjusted. If the team member is also on other activities not managed in Agile, the timecard can be used to report at the same time, the team capacity and the time spent on traditional activities.
 3.	The system calculates the cost per story point for each team by dividing the Team Capacity retrieved for the month by the number of story points delivered by the team during that period of time.
   
-
+![ ](/assets/Calc1.png)
 
 For each WBS_Feature, the effort day are then calculated as follows:
+
+![ ](/assets/Calc2.png)
 
 
 
