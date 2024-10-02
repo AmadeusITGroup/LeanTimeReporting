@@ -97,6 +97,7 @@ The time spent working on Agile team is not converted. The reallocation of the t
 
 As explained above all the Lean Time Reporting relies on:
 1.	An up-to-date description of the Agile Release Train (Team of Agile Teams) with the complete definition of the all the teams and their team members (with the percentage of dedication to the team and the role for each member). Moreover, the Team must be associated with their respective identifier in the Application Lifecycle Management (ALM) system (JIRA). This is the Release Train Engineer (RTE) responsibility to maintain that. (In our case this description of the Agile teams is in SAP. It is a Virtual Organizations directory)
+
 ![ ](/assets/Diag1.png)
 
 2.	The Agile Teams are working in their Application Lifecycle Management (JIRA) to manage their work. Some settings are required in the ALM system (JIRA) to associate:
