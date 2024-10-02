@@ -1,9 +1,9 @@
 # LeanTimeReporting
-**Overview**
+## Overview
 
 Lean Time Reporting (LTR) is a streamlined approach for Agile teams to track time, replacing traditional time tracking tools and processes.
 
-**Introduction**
+## Introduction
 
 Traditional time tracking requires users to enter the number of hours spent on different tasks, projects, and clients. To be accurate, the timesheets need to be completed at least once a week, or even every day to ensure good accuracy. Indeed, studies are showing that reporting time at the end of the month decreases the accuracy to 40% according to the Ebbinghaus Forgetting Curve. The issue is that time tracking is often perceived as time consuming, nonvalue added, and too granular. It is thus not the priority of users. Furthermore, some users might be required to track their activities in a different system than their day-to-day Application Lifecycle Management tool. 
 
@@ -11,7 +11,7 @@ The goal of the Lean Time Reporting is to prevent manual entries per tasks on a 
 
 Lean Time Reporting not only allows users to focus on the execution of their tasks and transfer the management of the reporting of time spent to the Release Train Engineers (SAFe Methodology), but also allows to report time at a granular level (up to the user story) without complexifying the process. This prevents some projects/teams from compromising the granularity of information collected to ensure accurate time spent. Furthermore, as Lean Time Reporting requires strong Agile practices, it pushes the team towards continuous improvement, it is an incentive to adopt the agile mindset.
 
-**Definitions**
+## Definitions
 
 
 |Terms            | Definitions                                                                                      |
@@ -20,7 +20,7 @@ Lean Time Reporting not only allows users to focus on the execution of their tas
 |Team dedication |The Team Dedication reflects how much time and effort a team member devotes to the goals and deliverables of the team. In our system it is a percentage. Someone who has no work to be done outside his/her team is fully dedicated to the team (100% of dedication) |
 |WBS lowest element |Can be the user story or the feature (SAFe methodology) |
 
-Model principles and considerations
+## Model principles and considerations
 1.	Lean time reporting works at team level, and it differentiates the different roles of a team (Scrum Master, Developers, etc)
     - Note that it cannot track the time of a specific individual.
     - The calculation will take into consideration the deliveries made by the team and the capacity for all the team members.
@@ -38,3 +38,15 @@ Model principles and considerations
 8.	Lean time reporting can work either if the team is a scrum team or is using kanban.
 9.	Lean time reporting is described here in the Agile context, but it can be used in other contexts such as support teams where the allocation keys can be for example the number of tickets (volumetric KPI) instead of story points.
 
+### Details
+
+In the description below, the lean time reporting runs on 3 different applications:
+-	The capacity tracking tool is SAP CATS to track the capacity of the team for the period and to remove any unproductive days (absences, weekends…). It is also used to track time spent in a traditional manner if some tasks are performed outside the context of the Agile team. The capacity of the team is then adjusted automatically and reflects the reality. 
+-	The financial project management system is also SAP. The costs collected through time tracking, purchase orders receipts, etc are posted on the WBS maintained in SAP. 
+-	The application lifecycle tool is Jira. Jira is used to describe the detailed activities of the WBS thus each relevant Jira ticket has a link to the SAP WBS lowest level.
+
+  To simplify the explanations below, the SAP WBS lowest level will be a feature taking assumption that the link is made at this level between Jira Epic (SAFe Feature) and the WBS. It refers below to a WBS_Feature.
+
+  
+
+  
