@@ -88,10 +88,10 @@ In this example, each team member has a role defined (Scrum Master, Product Owne
 
 ### How is the capacity per team retrieved in the time tracking tool?
 
-The lean time reporting has been implemented using in the tracking tool 2 types of “tasks”. One type of task is managed through the WBS as in standard processes, the other type is created to mirror the Agile Release Train Structure. In the solution described above the structure reflects the entire list of Agile Release Train and their teams that are grouped by Solution and then Portfolio. There are thus 2 types of tasks in the time tracking tool:
+The lean time reporting has been implemented using 2 types of “tasks” in the tracking tool. One type is managed through the WBS as in standard processes, the other type is created to mirror the Agile Release Train Structure. In the solution described above the structure reflects the entire list of Agile Release Trains and their teams that are grouped by Solution and then by Portfolio. There are thus 2 types of tasks in the time tracking tool:
 -	One to track time spent on WBS in a standard way
 -	One to track the time spent working within a team to deliver the story points that the system will retrieve from Jira.
-The time spent working on Agile team is not converted. The reallocation of the time spent per team is reallocated to the WBS in the project financial system. 
+The time spent working on Agile team is reallocated to the WBS in the project financial system. 
 
 ### Importance of the maturity of the teams and methodology recommended to prepare the teams to lean time reporting
 
