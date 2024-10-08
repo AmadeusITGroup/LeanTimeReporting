@@ -55,7 +55,7 @@ Both options have been used. The decision has been made to be at Jira Epic level
 2.	A second data integration is required to ensure that the team, the team members, their roles (if required), and their team dedication (one person might not work 100% for one team and may be part of several teams, working thus on different backlog of activities) are shared between the time tracking tool and the application lifecycle tool (Jira).
 This allows the automation of the completion of the timecards (lean timesheet filling) if required
 3.	A third data integration is used to import in the financial project management system (SAP) the user story points per Feature. Note as both the time tracking tool and the financial project management system are in SAP, the transfer of the capacity of each team to the project financial system is done using standard SAP transaction.
-A dashboard can be used for the Release Train Engineer (RTE) to monitor the user story points per WBS_Feature, and simulate the reallocation of the time spent (effort days) to the WBS if needed.
+A dashboard can be used for the Release Train Engineer (RTE) to monitor the user story points per WBS_Feature, and simulate the reallocation of the time spent (capacity of the team in effort days) to the WBS if needed.
 This dashboard can be used to request the RTE to validate the simulation before the finance system performs the reallocation. It can be auditable evidence (capitalization processes) that the hours collected are accurate and representative of what has been created and the effort to create them.
 
 ### Reallocation of the effort days to the WBS in the financial project management system. 
