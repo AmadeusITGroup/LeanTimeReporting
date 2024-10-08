@@ -45,7 +45,7 @@ In the description below, the lean time reporting runs on 3 different applicatio
 -	The financial project management system is also SAP. The costs collected through time tracking, purchase orders receipts, etc are posted on the WBS maintained in SAP. 
 -	The application lifecycle tool is Jira. Jira is used to describe the detailed activities of the WBS thus each relevant Jira ticket has a link to the SAP WBS lowest level.
 
-  To simplify the explanations below, the SAP WBS lowest level will be a feature taking assumption that the link is made at this level between Jira Epic (SAFe Feature) and the WBS. It refers below to a WBS_Feature.
+  To simplify the explanations below, the SAP WBS lowest level will be a feature (SAFe methodology) taking assumption that the link is made at this level between Jira Epic (SAFe Feature) and the WBS. It refers below to a WBS_Feature.
 
   ![ ](/assets/figure1.png)
 1.	A first data integration is required to ensure that the activities, Jira epics in this example, are linked to the financial project management system WBS. It is the responsibility of the Release Train Engineer to ensure it is done. 
