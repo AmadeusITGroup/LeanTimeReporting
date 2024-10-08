@@ -16,7 +16,7 @@ Lean Time Reporting not only allows users to focus on the execution of their tas
 
 |Terms            | Definitions                                                                                      |
 |-----------------|--------------------------------------------------------------------------------------------------|
-| WBS (Work Breakdown Structure) |SAP WBS (Work Breakdown Structure) refers to the model of the project that organizes project tasks into a priority list and outlines a hierarchical list for each task. An individual WBS element represents specific activities within the overall work breakdown structure.|
+| WBS (Work Breakdown Structure) |The Project Management Institute’s project management body of knowledge book (PMBOK) defines WBS as “a deliverable-oriented hierarchical decomposition of the work to be executed by the project team to accomplish the project objectives and create the required deliverables.”  In a nutshell, each WBS level represents in an organized way the work needed to complete the project.|
 |Team dedication |The Team Dedication reflects how much time and effort a team member devotes to the goals and deliverables of the team. In our system it is a percentage. Someone who has no work to be done outside his/her team is fully dedicated to the team (100% of dedication) |
 |WBS lowest element |Can be the user story or the feature (SAFe methodology) |
 
